@@ -1,0 +1,178 @@
+﻿@model TourismToursWebsite.Models.Tour
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+<link rel="stylesheet" href="fonts/icomoon/style.css">
+<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+<link rel="stylesheet" href="css/daterangepicker.css">
+<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<h1>Details</h1>
+
+<div class="untree_co-section">
+	<div class="container">
+		<div class="row text-center justify-content-center mb-5">
+			<div class="col-lg-7"><h2 class="section-title text-center">Popular Destination</h2></div>
+		</div>
+
+		<div class="owl-carousel owl-3-slider">
+
+			<div class="item">
+				<a class="media-thumb" data-fancybox="gallery">
+					<div class="media-text">
+						<h3>Pragser Wildsee</h3>
+						<span class="location">Italy</span>
+					</div>
+					<img src="images/tours/dahab.jpg" alt="Image" class="img-fluid">
+				</a>
+			</div>
+
+			<div class="item">
+				<a class="media-thumb" href="images/tours/dahab.jpg" data-fancybox="gallery">
+					<div class="media-text">
+						<h3>Oia</h3>
+						<span class="location">Greece</span>
+					</div>
+					<img src="images/tours/dahab.jpg" alt="Image" class="img-fluid">
+				</a>
+			</div>
+
+			<div class="item">
+				<a class="media-thumb" href="images/tours/dahab.jpg" data-fancybox="gallery">
+					<div class="media-text">
+						<h3>Perhentian Islands</h3>
+						<span class="location">Malaysia</span>
+					</div>
+					<img src="images/tours/dahab.jpg" alt="Image" class="img-fluid">
+				</a>
+			</div>
+
+
+			<div class="item">
+				<a class="media-thumb" href="images/tours/dahab.jpg" data-fancybox="gallery">
+					<div class="media-text">
+						<h3>Rialto Bridge</h3>
+						<span class="location">Italy</span>
+					</div>
+					<img src="images/tours/dahab.jpg" alt="Image" class="img-fluid">
+				</a>
+			</div>
+
+			<div class="item">
+				<a class="media-thumb" href="images/tours/dahab.jpg" data-fancybox="gallery">
+					<div class="media-text">
+						<h3>San Francisco, United States</h3>
+						<span class="location">United States</span>
+					</div>
+					<img src="images/tours/dahab.jpg" alt="Image" class="img-fluid">
+				</a>
+			</div>
+
+			<div class="item">
+				<a class="media-thumb" href="images/tours/dahab.jpg" data-fancybox="gallery">
+					<div class="media-text">
+						<h3>Lake Thun</h3>
+						<span class="location">Switzerland</span>
+					</div>
+					<img src="images/tours/dahab.jpg" alt="Image" class="img-fluid">
+				</a>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+<div>
+    <h4>Tour</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/daterangepicker.js"></script>
+
+<script src="js/typed.js"></script>
+<script>
+	$(function() {
+		var slides = $('.slides'),
+		images = slides.find('img');
+
+		images.each(function(i) {
+			$(this).attr('data-id', i + 1);
+		})
+
+		var typed = new Typed('.typed-words', {
+			strings: ["San Francisco."," Paris."," New Zealand.", " Maui.", " London."],
+			typeSpeed: 80,
+			backSpeed: 80,
+			backDelay: 4000,
+			startDelay: 1000,
+			loop: true,
+			showCursor: true,
+			preStringTyped: (arrayPos, self) => {
+				arrayPos++;
+				console.log(arrayPos);
+				$('.slides img').removeClass('active');
+				$('.slides img[data-id="'+arrayPos+'"]').addClass('active');
+			}
+
+		});
+	})
+</script>
+
+<script src="js/custom.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>

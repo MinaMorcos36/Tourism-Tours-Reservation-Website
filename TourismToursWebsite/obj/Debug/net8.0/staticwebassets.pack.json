@@ -1,0 +1,1021 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minan\\.nuget\\packages\\bootstrap\\5.3.5\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TourismToursWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TourismToursWebsite.t0pgygy73s.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\_mixins.css",
+      "PackagePath": "staticwebassets\\css\\_mixins.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\_site-blocks.css",
+      "PackagePath": "staticwebassets\\css\\_site-blocks.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\css\\daterangepicker.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\index.html",
+      "PackagePath": "staticwebassets\\css\\index.html"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\mixins\\_background-variant.css",
+      "PackagePath": "staticwebassets\\css\\mixins\\_background-variant.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\mixins\\_deprecate.css",
+      "PackagePath": "staticwebassets\\css\\mixins\\_deprecate.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\mixins\\_resize.css",
+      "PackagePath": "staticwebassets\\css\\mixins\\_resize.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\style2.css",
+      "PackagePath": "staticwebassets\\css\\style2.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\css\\vendor\\_rfs.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\_rfs.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\backup.txt"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.woff2"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\flaticon.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\flaticon.html"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\license\\license.pdf"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\icomoon\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\demo-files\\demo.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\icomoon\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\demo-files\\demo.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\icomoon\\demo.html",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\demo.html"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\selection.json"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\icomoon\\style.css",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\style.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\fonts\\index.html",
+      "PackagePath": "staticwebassets\\fonts\\index.html"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\Logo.png",
+      "PackagePath": "staticwebassets\\images\\Logo.png"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\Sharm-El-Sheikh.jpg",
+      "PackagePath": "staticwebassets\\images\\Sharm-El-Sheikh.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\dahab.jpg",
+      "PackagePath": "staticwebassets\\images\\dahab.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\gal_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gal_1.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\gal_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gal_2.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\gal_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gal_3.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\gal_4.jpg",
+      "PackagePath": "staticwebassets\\images\\gal_4.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\gal_5.jpg",
+      "PackagePath": "staticwebassets\\images\\gal_5.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\gal_6.jpg",
+      "PackagePath": "staticwebassets\\images\\gal_6.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\hero-slider-1.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\hero-slider-2.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\hero-slider-3.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-slider-3.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\hero-slider-4.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-slider-4.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\hero-slider-5.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-slider-5.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\hero_1.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_1.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\home_vedio.jpg",
+      "PackagePath": "staticwebassets\\images\\home_vedio.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\hurghada.jpg",
+      "PackagePath": "staticwebassets\\images\\hurghada.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\img_1.jpg",
+      "PackagePath": "staticwebassets\\images\\img_1.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\img_2.jpg",
+      "PackagePath": "staticwebassets\\images\\img_2.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\img_3.jpg",
+      "PackagePath": "staticwebassets\\images\\img_3.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\img_4.jpg",
+      "PackagePath": "staticwebassets\\images\\img_4.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\index.html",
+      "PackagePath": "staticwebassets\\images\\index.html"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\marsaAlam.jpg",
+      "PackagePath": "staticwebassets\\images\\marsaAlam.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\images\\person_1.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\images\\person_2.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\images\\person_3.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\images\\person_4.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\slider-1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-1.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\slider-2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-2.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\slider-3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-3.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\slider-4.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-4.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\slider-5.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-5.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\slider_1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider_1.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\slider_2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider_2.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\slider_3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider_3.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tapa.jpeg",
+      "PackagePath": "staticwebassets\\images\\tapa.jpeg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\03f2c3a0-1cd8-4e11-87ea-6704c8e6e913.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\03f2c3a0-1cd8-4e11-87ea-6704c8e6e913.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\04418507-7c42-4ec7-8a26-d6085f232a3d.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\04418507-7c42-4ec7-8a26-d6085f232a3d.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\20d69431-0c7c-4757-937a-9bf103c398d4.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\20d69431-0c7c-4757-937a-9bf103c398d4.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\33df01e4-6a9d-466e-a47f-2a05d0a5f76a.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\33df01e4-6a9d-466e-a47f-2a05d0a5f76a.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\41cba254-c1f3-4b80-9c10-e0f70fb7cecd.jpeg",
+      "PackagePath": "staticwebassets\\images\\tours\\41cba254-c1f3-4b80-9c10-e0f70fb7cecd.jpeg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\58dc1431-57e7-4881-b90e-c08b4c14022c.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\58dc1431-57e7-4881-b90e-c08b4c14022c.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\5d7c4503-0b79-472b-aa94-0f42de18b2b5.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\5d7c4503-0b79-472b-aa94-0f42de18b2b5.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\601dd23a-3c04-43e1-bf58-30cd714b92ca.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\601dd23a-3c04-43e1-bf58-30cd714b92ca.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\660250b7-d930-4d34-b9cb-dcedde7e578d.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\660250b7-d930-4d34-b9cb-dcedde7e578d.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\798da492-8df9-4469-a12b-944c3c02acd5.jpeg",
+      "PackagePath": "staticwebassets\\images\\tours\\798da492-8df9-4469-a12b-944c3c02acd5.jpeg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\7dba8691-3f56-4203-be92-4d1be05b0739.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\7dba8691-3f56-4203-be92-4d1be05b0739.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\82c587cc-0cdc-4c2e-93ae-68e5ed6a9ac1.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\82c587cc-0cdc-4c2e-93ae-68e5ed6a9ac1.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\860450c3-fb6e-4bae-b6b6-762b8be045cd.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\860450c3-fb6e-4bae-b6b6-762b8be045cd.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\95ecfb96-117c-42bc-a28d-a72e3af817f9.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\95ecfb96-117c-42bc-a28d-a72e3af817f9.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\9db035fb-43b4-4984-bb98-08f6abb00c50.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\9db035fb-43b4-4984-bb98-08f6abb00c50.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\d708942f-8582-4c53-9dd1-f6ab1cb05424.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\d708942f-8582-4c53-9dd1-f6ab1cb05424.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\dahab.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\dahab.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\diving.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\diving.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\dolphin.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\dolphin.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\ec4c839c-b614-4271-8ab3-d102caf3b9a5.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\ec4c839c-b614-4271-8ab3-d102caf3b9a5.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\efa33096-04f4-4e88-9824-5eefebb4a880.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\efa33096-04f4-4e88-9824-5eefebb4a880.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\f6ce906a-f4df-4c3b-a415-07abff7fd5f6.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\f6ce906a-f4df-4c3b-a415-07abff7fd5f6.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\heaven or hell who knows.jpeg",
+      "PackagePath": "staticwebassets\\images\\tours\\heaven or hell who knows.jpeg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\hurghada.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\hurghada.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\parachute.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\parachute.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\pool.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\pool.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\room.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\room.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\safari.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\safari.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\sharm.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\sharm.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\images\\tours\\yacht.jpg",
+      "PackagePath": "staticwebassets\\images\\tours\\yacht.jpg"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\js\\daterangepicker.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\index.html",
+      "PackagePath": "staticwebassets\\js\\index.html"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\jarallax.min.js",
+      "PackagePath": "staticwebassets\\js\\jarallax.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\jquery.animateNumber.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.animateNumber.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\moment.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\js\\typed.js",
+      "PackagePath": "staticwebassets\\js\\typed.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\_functions.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\_site-base.scss",
+      "PackagePath": "staticwebassets\\scss\\_site-base.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\_site-blocks.scss",
+      "PackagePath": "staticwebassets\\scss\\_site-blocks.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\_site-elements.scss",
+      "PackagePath": "staticwebassets\\scss\\_site-elements.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\_site-footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_site-footer.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\_site-navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\_site-navbar.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\index.html",
+      "PackagePath": "staticwebassets\\scss\\index.html"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "E:\\DEPI\\Project\\MyProject\\TourismToursWebsite\\TourismToursWebsite\\wwwroot\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TourismToursWebsite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TourismToursWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TourismToursWebsite.props",
+      "PackagePath": "build\\TourismToursWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TourismToursWebsite.props",
+      "PackagePath": "buildMultiTargeting\\TourismToursWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TourismToursWebsite.props",
+      "PackagePath": "buildTransitive\\TourismToursWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

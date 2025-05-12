@@ -1,0 +1,136 @@
+﻿@model TourismToursWebsite.Models.Tour
+
+@{
+    ViewData["Title"] = "Details";
+}
+<h1>Details</h1>
+
+<div class="row">
+    <!-- Tour Details Section -->
+    <div class="col-md-6">
+        <h4>Tour</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Price)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Price)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Location)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Location)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Date)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Date)
+            </dd>
+        </dl>
+        <div>
+
+            @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+            {
+                <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-secondary">Edit</a>
+                <a asp-action="Delete" asp-route-id="@Model?.Id" class="btn btn-danger">Delete</a>
+            }
+            else if (User.Identity.IsAuthenticated && User.IsInRole("Admin") == false)
+            {
+
+            }
+            
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a asp-controller="Reservations" asp-action="Index" asp-route-id="@Model?.Id" class="btn btn-primary">Book Now</a>
+            }
+            else
+            {
+                <a asp-controller="User" asp-action="Login" class="btn btn-primary">Book Now</a>
+            }
+            <a asp-action="Index" class="btn btn-outline-dark">Back to List</a>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <h4>Photos</h4>
+        <hr />
+        <div class="row">
+            <div class="photo col-6 mb-3">
+                <img src="~/images/tours/dahab.jpg" alt="Tour Photo" class="img-fluid rounded">
+             </div>
+            <div class="photo col-6 mb-3">
+                <img src="~/images/tours/hurghada.jpg" alt="Tour Photo" class="img-fluid rounded">
+            </div>
+            <div class="photo col-6 mb-3">
+                <img src="~/images/tours/yacht.jpg" alt="Tour Photo" class="img-fluid rounded">
+            </div>
+            <div class="photo col-6 mb-3">
+                <img src="~/images/tours/diving.jpg" alt="Tour Photo" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .photo {
+        -moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 280px;
+        background-color: transparent;
+    }
+
+        .photo img {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+
+        .photo:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .photo h3 {
+            font-size: 1.25rem;
+            color: #1A374D;
+            margin-top: 10px;
+        }
+
+
+    .form {
+        background: #ffffff;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .btn-primary {
+        background-color: #1A374D;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #1f425c;
+        }
+
+
+
+        
+</style>

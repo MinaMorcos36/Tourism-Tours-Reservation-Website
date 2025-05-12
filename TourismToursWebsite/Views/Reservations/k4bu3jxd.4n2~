@@ -1,0 +1,120 @@
+﻿@model TourismToursWebsite.Models.Reservation
+@{
+    ViewData["Title"] = "Book a Tour";
+    var tour = ViewBag.Tour;
+}
+
+<h2 class="mb-4">Book Your Tour</h2>
+
+<div class="card p-4 mb-4">
+    <h3>@tour.Name</h3>
+    <p>@tour.Description</p>
+    <p><strong>Price:</strong> $@tour.Price</p>
+    <p><strong>Location:</strong> @tour.Location</p>
+    <p><strong>Date:</strong> @tour.Date.ToShortDateString()</p>
+</div>
+
+<div class="d-flex flex-wrap">
+    <div class="col-md-6">
+        <form method="post" asp-action="Create">
+            <input type="hidden" name="TourId" value="@tour.Id" />
+            <div class="form-group mb-3">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label">User Name</label>
+                    <input asp-for="UserName" class="form-control" placeholder="Enter your Name"/>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UserEmail" class="control-label">E-mail</label>
+                    <input asp-for="UserEmail" class="form-control" placeholder="Enter your Email Address" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="UserPhone" class="control-label">Phone Number</label>
+                    <input asp-for="UserPhone" class="form-control" placeholder="Enter your Phone Number"/>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label>Number of Persons</label>
+                    <input type="number" class="form-control" id="numberOfPersons" value="1" min="1" onchange="calculateTotalPrice()" />
+                    <h4 id="totalPrice">Price: $@tour.Price</h4>
+                </div>
+
+            </div>
+
+            <hr />
+
+            <h4>Payment Details</h4>
+                <div class="form-group mb-3">
+                    <label>Visa Card Number</label>
+                    <input type="text" class="form-control" pattern="\d{16}" required />
+                    <label>Expiry Date</label>
+                    <input type="month" class="form-control" required />
+                    <label>CVV</label>
+                    <input type="text" class="form-control" pattern="\d{3}" required />
+                </div>
+    
+                <div class="form-group">
+                    <input type="submit" value="Confirm Booking" class="btn btn-primary" />
+                    <a asp-controller="Tours" asp-action="Index" class="btn btn-outline-dark">Back to List</a>
+                </div>
+           </form>
+    </div>
+</div>
+
+<script>
+    function calculateTotalPrice() {
+        const pricePerPerson = @tour.Price;
+        const numberOfPersons = document.getElementById("numberOfPersons").value;
+        const totalPrice = pricePerPerson * numberOfPersons;
+        document.getElementById("totalPrice").innerText = `Total Price: $${totalPrice.toFixed(2)}`;
+    }
+
+    calculateTotalPrice();
+</script>
+
+<style>
+    .tour-card {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 280px;
+        background-color: #ffffff;
+    }
+
+        .tour-card img {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .tour-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .tour-card h3 {
+            font-size: 1.25rem;
+            color: #1A374D;
+            margin-top: 10px;
+        }
+
+
+    .form {
+        background: #ffffff;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .btn-primary {
+        background-color: #1A374D;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #1f425c;
+        }
+</style>

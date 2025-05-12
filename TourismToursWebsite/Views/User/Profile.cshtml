@@ -1,0 +1,46 @@
+﻿@model TourismToursWebsite.Models.User
+
+<h2>Profile</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label>Full Name</label>
+        <input asp-for="FullName" class="form-control" readonly />
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" class="form-control" readonly />
+    </div>
+
+    <div>
+        <label>Phone</label>
+        <input asp-for="Phone" class="form-control" readonly />
+    </div>
+
+    <button type="button" id="editBtn" class="btn btn-warning mt-3">Edit</button>
+    <button type="submit" id="saveBtn" class="btn btn-primary mt-3 d-none">Save Changes</button>
+    <button type="button" id="cancelBtn" class="btn btn-secondary mt-3 d-none">Cancel</button>
+</form>
+
+@section Scripts {
+    <script>
+        const editBtn = document.getElementById('editBtn');
+        const saveBtn = document.getElementById('saveBtn');
+        const cancelBtn = document.getElementById('cancelBtn');
+        const inputs = document.querySelectorAll('input');
+
+        editBtn.addEventListener('click', () => {
+            inputs.forEach(input => input.removeAttribute('readonly'));
+            editBtn.classList.add('d-none');
+            saveBtn.classList.remove('d-none');
+            cancelBtn.classList.remove('d-none');
+        });
+
+        cancelBtn.addEventListener('click', () => {
+            window.location.reload();
+        });
+    </script>
+}

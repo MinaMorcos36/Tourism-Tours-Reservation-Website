@@ -1,0 +1,137 @@
+﻿@model TourismToursWebsite.Models.Tour
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Tour</h4>
+<hr />
+<div class="d-flex flex-wrap">
+    <div class="col-md-6">
+        <form asp-action="Edit" enctype="multipart/form-data" oninput="updatePreview()">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" id="tourName" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" id="tourDescription" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" id="tourPrice" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location" class="control-label"></label>
+                <input asp-for="Location" class="form-control" id="tourLocation" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" id="tourDate" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="ImageFile">Tour Image</label>
+                <input type="file" class="form-control" name="ImageFile" accept="image/*" id="tourImage" onchange="previewImage(event)" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <div class="tour-card m-3">
+            <img id="previewImage" src="/images/placeholder.png" alt="Tour Image" class="img-fluid">
+            <div class="card-body">
+                <h3 class="text-center" id="previewName">Tour Name</h3>
+                <p class="text-muted" id="previewDescription">Description...</p>
+                <p><strong>Price:</strong>  $<span id="previewPrice">0.00</span></p>
+                <p><strong>Location:</strong> <span id="previewLocation">Location</span></p>
+                <p><strong>Date:</strong> <span id="previewDate">Date</span></p>
+                <div class="tour-actions mt-3 d-flex justify-content-between">
+                    <a class="btn btn-outline-dark px-md-5">Details</a>
+                    <a class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Details" asp-route-id="@Model?.Id" class="btn btn-outline-dark">Back to Tour Details</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+<script>
+    function updatePreview() {
+        document.getElementById('previewName').innerText = document.getElementById('tourName').value || "Tour Name";
+        document.getElementById('previewDescription').innerText = document.getElementById('tourDescription').value || "Description...";
+        document.getElementById('previewPrice').innerText = document.getElementById('tourPrice').value || "0.00";
+        document.getElementById('previewLocation').innerText = document.getElementById('tourLocation').value || "Location";
+        document.getElementById('previewDate').innerText = document.getElementById('tourDate').value || "Date";
+    }
+
+    function previewImage(event) {
+        const image = document.getElementById('previewImage');
+        image.src = URL.createObjectURL(event.target.files[0]);
+    }
+</script>
+
+<style>
+    .tour-card {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 280px;
+        background-color: #ffffff;
+    }
+
+        .tour-card img {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .tour-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .tour-card h3 {
+            font-size: 1.25rem;
+            color: #1A374D;
+            margin-top: 10px;
+        }
+
+
+    .form {
+        background: #ffffff;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .btn-primary {
+        background-color: #1A374D;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #1f425c;
+        }
+</style>

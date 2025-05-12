@@ -1,0 +1,63 @@
+﻿@model IEnumerable<TourismToursWebsite.Models.Reservation>
+
+@{
+    ViewData["Title"] = "Book a Tour";
+    var tour = ViewBag.Tour;
+}
+
+<h2>Book Your Tour</h2>
+
+<div class="card p-3 mb-4">
+    <h3>@tour.Name</h3>
+    <p>@tour.Description</p>
+    <p><strong>Price:</strong> $@tour.Price</p>
+    <p><strong>Location:</strong> @tour.Location</p>
+    <p><strong>Date:</strong> @tour.Date.ToShortDateString()</p>
+</div>
+
+<form method="post" asp-action="Create">
+    <input type="hidden" name="TourId" value="@tour.Id" />
+
+    <h4>Booking Details</h4>
+    <div class="form-group">
+        <label for="FullName">Full Name</label>
+        <input type="text" name="FullName" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="numberOfPersons" class="form-label">Number of Persons</label>
+        <input type="number" class="form-control" id="numberOfPersons" value="1" min="1" onchange="calculateTotalPrice()" />
+    </div>
+
+    <div class="mb-3">
+        <h4 id="totalPrice">Price: $@tour.Price</h4>
+    </div>
+
+    <h4>Payment Details</h4>
+    <div class="form-group">
+        <label for="VisaNumber">Visa Card Number</label>
+        <input type="text" name="VisaNumber" class="form-control" required minlength="16" maxlength="16" />
+    </div>
+    <div class="form-group">
+        <label for="ExpiryDate">Expiry Date</label>
+        <input type="month" name="ExpiryDate" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="CVV">CVV</label>
+        <input type="number" name="CVV" class="form-control" required minlength="3" maxlength="3" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Confirm Booking</button>
+</form>
+
+<script>
+    function calculateTotalPrice() {
+        const pricePerPerson = @tour.Price;
+        const numberOfPersons = document.getElementById("numberOfPersons").value;
+        const totalPrice = pricePerPerson * numberOfPersons;
+
+        document.getElementById("totalPrice").innerText = `Total Price: $${totalPrice.toFixed(2)}`;
+    }
+
+    // Initialize with the default calculation
+    calculateTotalPrice();
+</script>

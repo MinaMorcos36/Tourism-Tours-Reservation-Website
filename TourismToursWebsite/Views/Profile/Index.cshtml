@@ -1,0 +1,99 @@
+﻿@model TourismToursWebsite.Models.User
+
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<style>
+    body {
+        background: linear-gradient(to bottom right, #87CEFA, #FFFACD);
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .profile-card {
+        background-color: white;
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+        .profile-card h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+    .form-group label {
+        font-weight: bold;
+        color: #444;
+    }
+
+    .btn-custom {
+        margin-right: 10px;
+    }
+
+    .hidden {
+        display: none;
+    }
+</style>
+
+<div class="profile-card">
+    <h2>My Profile</h2>
+
+    <form asp-action="Edit" method="post" id="profileForm">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="form-group mb-3">
+            <label>Name</label>
+            <input asp-for="FullName" class="form-control" disabled />
+        </div>
+
+        <div class="form-group mb-3">
+            <label>Email</label>
+            <input asp-for="Email" class="form-control" disabled />
+        </div>
+
+        <div class="form-group mb-3">
+            <label>Phone</label>
+            <input asp-for="Phone" class="form-control" disabled />
+        </div>
+
+        <div class="text-center mt-4">
+            
+            <a href="@Url.Action("Edit", "Profile")" type="button" class="btn btn-primary">Edit</a>
+        </div>
+    </form>
+</div>
+
+<script>
+    const editBtn = document.getElementById("editBtn");
+    const saveBtn = document.getElementById("saveBtn");
+    const cancelBtn = document.getElementById("cancelBtn");
+    const inputs = document.querySelectorAll("#profileForm input:not([type='hidden'])");
+
+    editBtn.addEventListener("click", () => {
+        inputs.forEach(input => input.disabled = false);
+        editBtn.classList.add("hidden");
+        saveBtn.classList.remove("hidden");
+        cancelBtn.classList.remove("hidden");
+    });
+
+    cancelBtn.addEventListener("click", () => {
+        inputs.forEach(input => input.disabled = true);
+        editBtn.classList.remove("hidden");
+        saveBtn.classList.add("hidden");
+        cancelBtn.classList.add("hidden");
+    });
+</script>
+<style>
+    .btn-primary {
+        background-color: #1A374D;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #1f425c;
+        }
+</style>

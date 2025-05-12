@@ -1,0 +1,210 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using TourismToursWebsite.Models;
+
+namespace TourismToursWebsite.Controllers
+{
+    public class ToursController : Controller
+    {
+        private readonly TourismToursDbContext _context;
+
+        public ToursController(TourismToursDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: Tours
+        public async Task<IActionResult> Index(string location, DateOnly? date, decimal? maxPrice)
+        {
+            var tours = _context.Tours.AsQueryable();
+
+            if(!string.IsNullOrWhiteSpace(location))
+            {
+                tours = tours.Where(t => t.Location.Contains(location));
+            }
+
+            if (date.HasValue)
+            {
+                tours = tours.Where(t => t.Date.Equals(date.Value.ToShortDateString));
+            }
+
+            if (maxPrice.HasValue)
+            {
+                tours = tours.Where(t => t.Price <= maxPrice.Value);
+            }
+
+
+
+            return View(await tours.ToListAsync());
+        }
+
+        // GET: Tours/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var tour = await _context.Tours
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (tour == null)
+            {
+                return NotFound();
+            }
+
+            return View(tour);
+        }
+
+        // GET: Tours/Create
+        //[Authorize(Roles = "Admin")]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Tours/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        //[Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,Location,Date,ImageUrl")] Tour tour, IFormFile ImageFile)
+        {
+            if (ModelState.IsValid)
+            {
+                // Handle Image Upload
+                if (ImageFile != null)
+                {
+                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageFile.FileName);
+                    string imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/tours", fileName);
+
+                    using (var stream = new FileStream(imagePath, FileMode.Create))
+                    {
+                        await ImageFile.CopyToAsync(stream);
+                    }
+
+                    tour.ImageUrl = "/images/tours/" + fileName; // Save relative path
+                }
+
+                _context.Add(tour);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(tour);
+        }
+
+        // GET: Tours/Edit/5
+        // [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var tour = await _context.Tours.FindAsync(id);
+            if (tour == null)
+            {
+                return NotFound();
+            }
+            return View(tour);
+        }
+
+        // POST: Tours/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        // [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Price,Location,Date")] Tour tour, IFormFile ImageFile)
+        {
+            if (id != tour.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    // Handle Image Upload
+                    if (ImageFile != null)
+                    {
+                        string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageFile.FileName);
+                        string imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/tours", fileName);
+
+                        using (var stream = new FileStream(imagePath, FileMode.Create))
+                        {
+                            await ImageFile.CopyToAsync(stream);
+                        }
+
+                        tour.ImageUrl = "/images/tours/" + fileName; // Save relative path
+                    }
+
+                    _context.Update(tour);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!TourExists(tour.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(tour);
+        }
+
+        // GET: Tours/Delete/5
+        // [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var tour = await _context.Tours
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (tour == null)
+            {
+                return NotFound();
+            }
+
+            return View(tour);
+        }
+
+        // POST: Tours/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        // [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var tour = await _context.Tours.FindAsync(id);
+            if (tour != null)
+            {
+                _context.Tours.Remove(tour);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool TourExists(int id)
+        {
+            return _context.Tours.Any(e => e.Id == id);
+        }
+    }
+}
